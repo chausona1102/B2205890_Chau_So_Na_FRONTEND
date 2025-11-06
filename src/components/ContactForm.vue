@@ -37,11 +37,11 @@
             </label>
         </div>
         <div class="form-group">
-            <button class="btn btn-primary">Lưu</button>
-            <button v-if="contactLocal._id" type="button" class="ml-2 btn btn-danger" @click="deleteContact">
+            <button class="btn btn-primary mx-2">Lưu</button>
+            <button v-if="contactLocal._id" type="button" class="ml-2 btn btn-danger mx-2" @click="deleteContact">
                 Xóa
             </button>
-            <button type="button" class="ml-2 btn btn-danger" @click="Cancel">
+            <button type="button" class="ml-2 btn btn-danger mx-2" @click="Cancel">
                 Thoát
             </button>
         </div>
